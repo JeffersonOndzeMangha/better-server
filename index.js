@@ -25,8 +25,8 @@ var api = new ParseServer({
 	masterKey: process.env.MASTER_KEY || 'myMasterKey', //Add your master key here. Keep it secret!
 	push: {
 		android: {
-			senderId: process.env.FCMI_SENDER_ID || '876684259464',
-			apiKey: process.env.FCM_API_KEY || 'AAAAzB50MIg:APA91bGt3sT7zhuRoV9FPFSKTwyeytHLHlbcqiqMnn7lCPkiIU2P6itIXnmdao4mEu1OoZSjv1hx8XzceM33z162DCQhAQawG0H0-ybjLN6nMag3DPsh-92RrDl5loi8sv6vqxMLvBX1'
+			senderId: process.env.FCMI_SENDER_ID || '1030347049573',
+			apiKey: process.env.FCM_API_KEY || 'AAAAzB50MIg:AAAA7-V4SmU:APA91bFN_qR8YYJPJB8BJgLi5bVjydiNxQlLDK43rQbebR3is6ZPL_Km72ju7ttC9UkKYuKdTfrrgKOTpLXpyTF6ifJKa-zwMMfHIn4RK6DT3ugVVHchM27QegrBGKTYF0jXRfzzyeML'
 		}
 	},
 	
